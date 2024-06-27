@@ -12,6 +12,7 @@ migrate = Migrate(app, db)
 db.init_app(app)
 
 
+
 @app.route('/')
 def index():
     return '<h1>Flask SQLAlchemy Lab 2</h1>'
